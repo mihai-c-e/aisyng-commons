@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "aisyng-commons"
+version = "0.0.1"
+description = "Common functionality for AISYNG.AI projects"
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [
+  {name = "Mihai Ermaliuc", email = "mihai@aisyng.ai" }
+]
+
+maintainers = [
+  {name = "Mihai Ermaliuc", email = "mihai@aisyng.ai" }
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+
+  # Indicate who your project is intended for
+  "Intended Audience :: Developers",
+  "Topic :: AI Engineering :: Build Tools",
+]
+
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "python-dotenv"
+]
+
+
+[project.optional-dependencies]
+
+[project.urls]
+
+[project.scripts]
+
+[tool.setuptools]
